@@ -4,7 +4,7 @@
 
 ## 请求结构 {#section_mqj_q3f_mdb .section}
 
-区块链服务的API是RPC风格，您可以通过发送HTTP GET请求调用区块链服务。
+区块链服务的API是RPC风格，您可以通过发送HTTP POST请求调用区块链服务。
 
 其请求结构如下：
 
@@ -16,20 +16,20 @@ https://Endpoint/?Action=xx&Parameters
 
 -   Endpoint：区块链服务 API 的服务接入地址为`baas.aliyuncs.com`。
 -   Action：要执行的操作，如使用DescribeOrganization接口查看已创建的服务实例。
--   Version：要使用的API版本，区块链服务的API版本是2018-07-31。
+-   Version：要使用的API版本，区块链服务的API版本是2018-12-21。
 -   Parameters：请求参数，每个参数之间用“&”分隔。
 
     请求参数由公共请求参数和API自定义参数组成。公共参数中包含API版本号、身份验证等信息，详情参见[公共参数](cn.zh-CN/API参考/公共参数.md#)。
 
 
-下面是一个调用DescribeOrganization接口查询已创建的实例的示例：
+下面是一个调用DescribeOrganization接口查询已创建的区块链组织的示例：
 
 **说明：** 为了便于查看，本文档中的示例都做了格式化处理。
 
 ```
 https://baas.aliyuncs.com/?Action=DescribeOrganization
 &Format=xml
-&Version=2018-07-31
+&Version=2018-12-21
 &Signature=xxxx%xxxx%3D
 &SignatureMethod=HMAC-SHA1
 &SignatureNonce=15215528852396
@@ -62,7 +62,7 @@ http://baas.aliyuncs.com/?Action=DescribeOrganization
 &AccessKeyId=testid
 &SignatureMethod=HMAC-SHA1
 &SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf
-&Version=2018-07-31
+&Version=2018-12-21
 &SignatureVersion=1.0
 ```
 
@@ -73,8 +73,6 @@ http://baas.aliyuncs.com/?Action=DescribeOrganization
     ```
     GET&%2F&AccessKeyId%3Dtestid&Action%3DDescribeUises&Format%3DXML&SignatureMethod%3DHMAC-SHA1&SignatureNonce%3D3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf&SignatureVersion%3D1.0&TimeStamp%3D2016-02-23T12%253A46%253A24Z&Version%3D2016-04-18
     ```
-
-    。
 
 2.  计算待签名的HMAC的值。
 
@@ -93,7 +91,7 @@ http://baas.aliyuncs.com/?Action=DescribeOrganization
     &AccessKeyId=testid
     &SignatureMethod=HMAC-SHA1
     &SignatureNonce=3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf
-    &Version=2018-07-31
+    &Version=2018-12-21
     &SignatureVersion=1.0
     &Signature=VyBL52idtt+oImX0NZC+2ngk15Q=
     ```
