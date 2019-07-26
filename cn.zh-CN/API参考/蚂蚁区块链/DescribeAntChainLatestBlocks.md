@@ -1,0 +1,245 @@
+# DescribeAntChainLatestBlocks {#doc_api_Baas_DescribeAntChainLatestBlocks .reference}
+
+查询一条蚂蚁区块链最新的区块信息列表
+
+## 调试 {#api_explorer .section}
+
+[您可以在OpenAPI Explorer中直接运行该接口，免去您计算签名的困扰。运行成功后，OpenAPI Explorer可以自动生成SDK代码示例。](https://api.aliyun.com/#product=Baas&api=DescribeAntChainLatestBlocks&type=RPC&version=2018-12-21)
+
+## 请求参数 {#parameters .section}
+
+|名称|类型|是否必选|示例值|描述|
+|--|--|----|---|--|
+|AntChainId|String|是|pYogqb9v|区块链ID
+
+ |
+|Action|String|否|DescribeAntChainLatestBlocks|系统规定参数。取值：DescribeAntChainLatestBlocks。
+
+ |
+|RegionId|String|否|cn-hangzhou|地区ID
+
+ |
+
+## 返回数据 {#resultMapping .section}
+
+|名称|类型|示例值|描述|
+|--|--|---|--|
+|RequestId|String|B52C552F-DDE6-4779-9BA2-9DD455275528|请求ID
+
+ |
+|Result| |\[\]|请求结果
+
+ |
+
+## 示例 {#demo .section}
+
+请求示例
+
+``` {#request_demo}
+
+http(s)://[Endpoint]/?Action=DescribeAntChainLatestBlocks
+&<公共请求参数>
+
+```
+
+正常返回示例
+
+`JSON` 格式
+
+``` {#json_return_success_demo}
+{
+	"successResponse":true,
+	"requestId":"B52C552F-DDE6-4779-9BA2-9DD455275528",
+	"data":{
+		"Result":[
+			{
+				"createTime":1563945478000,
+				"height":365216,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"5ad300fc1c21ec8f808609f69108ae495c9041da43afe8e11591859989f2c63d",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"b573871ea72e24dadeb4cb821541763f7c9f46885ac688457170f0c34511072f",
+				"version":2,
+				"size":1024,
+				"blockHash":"5ad300fc1c21ec8f808609f69108ae495c9041da43afe8e11591859989f2c63d"
+			},
+			{
+				"createTime":1563945475000,
+				"height":365215,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"b573871ea72e24dadeb4cb821541763f7c9f46885ac688457170f0c34511072f",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"ba2ba0a9839a36824eae069021791c96e7057748ba781275814a11bc9178eece",
+				"version":2,
+				"size":1024,
+				"blockHash":"b573871ea72e24dadeb4cb821541763f7c9f46885ac688457170f0c34511072f"
+			},
+			{
+				"createTime":1563945472000,
+				"height":365214,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"ba2ba0a9839a36824eae069021791c96e7057748ba781275814a11bc9178eece",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"e1d0636b35439e3039cbac35c6f52cec06d42e8f645d877c3e5cbbb4c7eb6d98",
+				"version":2,
+				"size":1024,
+				"blockHash":"ba2ba0a9839a36824eae069021791c96e7057748ba781275814a11bc9178eece"
+			},
+			{
+				"createTime":1563945469000,
+				"height":365213,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"e1d0636b35439e3039cbac35c6f52cec06d42e8f645d877c3e5cbbb4c7eb6d98",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"dcf8a4783fdcfa76e2d80ac3ff7751150a1134f74cafa39df734e818580badb0",
+				"version":2,
+				"size":1024,
+				"blockHash":"e1d0636b35439e3039cbac35c6f52cec06d42e8f645d877c3e5cbbb4c7eb6d98"
+			},
+			{
+				"createTime":1563945466000,
+				"height":365212,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"dcf8a4783fdcfa76e2d80ac3ff7751150a1134f74cafa39df734e818580badb0",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"d3e21f7bba9bec77e83020eb79874a3defcff26664b53ef353b3adc3b7707339",
+				"version":2,
+				"size":1024,
+				"blockHash":"dcf8a4783fdcfa76e2d80ac3ff7751150a1134f74cafa39df734e818580badb0"
+			},
+			{
+				"createTime":1563945463000,
+				"height":365211,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"d3e21f7bba9bec77e83020eb79874a3defcff26664b53ef353b3adc3b7707339",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"b3c9e7da7790c04f4a55d427770f5959dde7d815c9313f76ed075875aaf26c25",
+				"version":2,
+				"size":1024,
+				"blockHash":"d3e21f7bba9bec77e83020eb79874a3defcff26664b53ef353b3adc3b7707339"
+			},
+			{
+				"createTime":1563945460000,
+				"height":365210,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"b3c9e7da7790c04f4a55d427770f5959dde7d815c9313f76ed075875aaf26c25",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"0437a86270ab64a5fed0536abcf559082c8af3d3d446ed397668efa4cffc3e39",
+				"version":2,
+				"size":1024,
+				"blockHash":"b3c9e7da7790c04f4a55d427770f5959dde7d815c9313f76ed075875aaf26c25"
+			},
+			{
+				"createTime":1563945457000,
+				"height":365209,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"0437a86270ab64a5fed0536abcf559082c8af3d3d446ed397668efa4cffc3e39",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"2155c765ab6c8798d3ccdbc0a94c5868a6c4e8b28bf5b2e12c8196b19cbcba65",
+				"version":2,
+				"size":1024,
+				"blockHash":"0437a86270ab64a5fed0536abcf559082c8af3d3d446ed397668efa4cffc3e39"
+			},
+			{
+				"createTime":1563945454000,
+				"height":365208,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"2155c765ab6c8798d3ccdbc0a94c5868a6c4e8b28bf5b2e12c8196b19cbcba65",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"ab37241847f1314379e1061fa170f24b292b3514f70a2852ac4aeff9efb31de9",
+				"version":2,
+				"size":1024,
+				"blockHash":"2155c765ab6c8798d3ccdbc0a94c5868a6c4e8b28bf5b2e12c8196b19cbcba65"
+			},
+			{
+				"createTime":1563945451000,
+				"height":365207,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"ab37241847f1314379e1061fa170f24b292b3514f70a2852ac4aeff9efb31de9",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"d342cb8c014f301f1cf0d1ab83bd374697576d86f5783954e786f63f6fab1c43",
+				"version":2,
+				"size":1024,
+				"blockHash":"ab37241847f1314379e1061fa170f24b292b3514f70a2852ac4aeff9efb31de9"
+			},
+			{
+				"createTime":1563945448000,
+				"height":365206,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"d342cb8c014f301f1cf0d1ab83bd374697576d86f5783954e786f63f6fab1c43",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"67a10fb87745ca2f6b2fb12eff180d5d6da2a705fcebb2c3ba809c895ae04a01",
+				"version":2,
+				"size":1024,
+				"blockHash":"d342cb8c014f301f1cf0d1ab83bd374697576d86f5783954e786f63f6fab1c43"
+			},
+			{
+				"createTime":1563945445000,
+				"height":365205,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"67a10fb87745ca2f6b2fb12eff180d5d6da2a705fcebb2c3ba809c895ae04a01",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"cafd00bc4beb93fe73adbc9ac71c7bdc5375c098b59c7f0f9ee457edc121583b",
+				"version":2,
+				"size":1024,
+				"blockHash":"67a10fb87745ca2f6b2fb12eff180d5d6da2a705fcebb2c3ba809c895ae04a01"
+			},
+			{
+				"createTime":1563945441000,
+				"height":365204,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"cafd00bc4beb93fe73adbc9ac71c7bdc5375c098b59c7f0f9ee457edc121583b",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"e4240366b63d7464523cbda77e946bf45d79ad2ea41dfb7ff70d68688c99fc30",
+				"version":2,
+				"size":1024,
+				"blockHash":"cafd00bc4beb93fe73adbc9ac71c7bdc5375c098b59c7f0f9ee457edc121583b"
+			},
+			{
+				"createTime":1563945438000,
+				"height":365203,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"e4240366b63d7464523cbda77e946bf45d79ad2ea41dfb7ff70d68688c99fc30",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"ddd23f171ff561ef0361183374a13e771545e36fc48743de687614830360bf31",
+				"version":2,
+				"size":1024,
+				"blockHash":"e4240366b63d7464523cbda77e946bf45d79ad2ea41dfb7ff70d68688c99fc30"
+			},
+			{
+				"createTime":1563945435000,
+				"height":365202,
+				"rootTxHash":"0000000000000000000000000000000000000000000000000000000000000000    0000000000000000000000000000000000000000000000000000000000000000    c4594eae7bc30a668e1fb8d128ad966756351d04682dabe4f78c63c8a6578df7",
+				"bizData":"ddd23f171ff561ef0361183374a13e771545e36fc48743de687614830360bf31",
+				"alias":"pYogqb9v",
+				"transactionSize":0,
+				"previousHash":"c8a22036514aab79c4b8d389379ad3ac21b689ce2e53f17da46167564135735e",
+				"version":2,
+				"size":1024,
+				"blockHash":"ddd23f171ff561ef0361183374a13e771545e36fc48743de687614830360bf31"
+			}
+		],
+		"RequestId":"B52C552F-DDE6-4779-9BA2-9DD455275528"
+	},
+	"code":"200"
+}
+```
+
+## 错误码 { .section}
+
+访问[错误中心](https://error-center.aliyun.com/status/product/Baas)查看更多错误码。
+
