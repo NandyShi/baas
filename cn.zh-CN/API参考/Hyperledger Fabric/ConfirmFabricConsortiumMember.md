@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ConsortiumId|String|是|consortium-aaaaaa-akpcsjjac2jd|联盟ID。
+|Action|String|是|ConfirmFabricConsortiumMember|系统规定参数。取值：**ConfirmFabricConsortiumMember**。
 
  |
-|Action|String|否|ConfirmFabricConsortiumMember|系统规定参数。取值：**ConfirmFabricConsortiumMember**。
+|ConsortiumId|String|是|consortium-aaaaaa-akpcsjjac2jd|联盟ID。
 
  |
 |Organization.N.OrganizationId|String|否|peers-aaaaaa1-1oxw31d046jtl|组织的ID列表。
