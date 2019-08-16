@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ConsortiumId|String|是|consortium-aaaaaa-akpcsjjac2jd|联盟ID
+|Action|String|是|CreateFabricConsortiumMember|系统规定参数。取值：**CreateFabricConsortiumMember**。
 
  |
-|Action|String|否|CreateFabricConsortiumMember|系统规定参数。取值：**CreateFabricConsortiumMember**。
+|ConsortiumId|String|是|consortium-aaaaaa-akpcsjjac2jd|联盟ID
 
  |
 |Code|String|否|200|邀请码
