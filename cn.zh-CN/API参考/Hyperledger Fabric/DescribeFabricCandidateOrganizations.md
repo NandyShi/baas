@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|否|DescribeFabricCandidateOrganizations|系统规定参数。取值：**DescribeFabricCandidateOrganizations**。
+|Action|String|是|DescribeFabricCandidateOrganizations|系统规定参数。取值：**DescribeFabricCandidateOrganizations**。
 
  |
 |Location|String|否|cn-hangzhou|位置
