@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ChannelId|String|是|chan-channelx-1l1hmckuu\*\*\*\*|通道ID
+|Action|String|是|DescribeFabricChannelMembers|系统规定参数。取值：**DescribeFabricChannelMembers**。
 
  |
-|Action|String|否|DescribeFabricChannelMembers|系统规定参数。取值：**DescribeFabricChannelMembers**。
+|ChannelId|String|是|chan-channelx-1l1hmckuu\*\*\*\*|通道ID
 
  |
 |RegionId|String|否|cn-hangzhou|地域
