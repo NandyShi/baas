@@ -10,6 +10,9 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|CreateFabricChaincode|系统规定参数。取值：**CreateFabricChaincode**。
+
+ |
 |ChannelId|String|是|chan-first-channel-1w55v3u39x2xz|通道ID
 
  |
@@ -23,9 +26,6 @@
 
  |
 |OssUrl|String|是|aaaaaa1/a0cf8729-7d47-44c9-9ed5-6d2fdfc8dc2c/sacc.cc|Oss对象地址
-
- |
-|Action|String|否|CreateFabricChaincode|系统规定参数。取值：**CreateFabricChaincode**。
 
  |
 |EndorsePolicy|String|否|OR \('aaaaaa1MSP.peer'\)|背书策略
