@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|OrganizationId|String|是|peers-aaaaaa1-1oxw31d04\*\*\*\*|组织ID
+|Action|String|是|DescribeFabricChaincodeUploadPolicy|系统规定参数。取值：**DescribeFabricChaincodeUploadPolicy**。
 
  |
-|Action|String|否|DescribeFabricChaincodeUploadPolicy|系统规定参数。取值：**DescribeFabricChaincodeUploadPolicy**。
+|OrganizationId|String|是|peers-aaaaaa1-1oxw31d04\*\*\*\*|组织ID
 
  |
 |RegionId|String|否|cn-hangzhou|地域
