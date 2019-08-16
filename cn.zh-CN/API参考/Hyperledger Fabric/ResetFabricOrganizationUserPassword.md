@@ -10,13 +10,13 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|ResetFabricOrganizationUserPassword|系统规定参数。取值：**ResetFabricOrganizationUserPassword**。
+
+ |
 |OrganizationId|String|是|peers-aaaaaa2-1eqnj5o5w\*\*\*\*|组织ID
 
  |
 |Username|String|是|username|用户名
-
- |
-|Action|String|否|ResetFabricOrganizationUserPassword|系统规定参数。取值：**ResetFabricOrganizationUserPassword**。
 
  |
 |Location|String|否|cn-hangzhou|位置
