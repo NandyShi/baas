@@ -10,13 +10,13 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|InstallFabricChaincode|系统规定参数。取值：**InstallFabricChaincode**。
+
+ |
 |ChaincodeId|String|是|chan-channelx-1l1hmckuuisxo|链码ID
 
  |
 |OrganizationId|String|是|peers-aaaaaa2-1eqnj5o5w9dt3|组织ID
-
- |
-|Action|String|否|InstallFabricChaincode|系统规定参数。取值：**InstallFabricChaincode**。
 
  |
 |Location|String|否|cn-hangzhou|位置
