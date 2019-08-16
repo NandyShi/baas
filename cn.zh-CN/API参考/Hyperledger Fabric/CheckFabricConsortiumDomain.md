@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|DomainCode|String|是|bank|联盟域名。
+|Action|String|是|CheckFabricConsortiumDomain|系统规定参数。取值：**CheckFabricConsortiumDomain**。
 
  |
-|Action|String|否|CheckFabricConsortiumDomain|系统规定参数。取值：**CheckFabricConsortiumDomain**。
+|DomainCode|String|是|bank|联盟域名。
 
  |
 |RegionId|String|否|cn-hangzhou|地域。
