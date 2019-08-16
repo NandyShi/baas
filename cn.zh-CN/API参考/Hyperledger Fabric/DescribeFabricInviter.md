@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Code|String|是|200|邀请码
+|Action|String|是|DescribeFabricInviter|系统规定参数。取值：**DescribeFabricInviter**。
 
  |
-|Action|String|否|DescribeFabricInviter|系统规定参数。取值：**DescribeFabricInviter**。
+|Code|String|是|200|邀请码
 
  |
 |RegionId|String|否|cn-hangzhou|地域
