@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|OrganizationId|String|是|peers-aaaaaa2-1eqnj5o5\*\*\*\*|组织ID
+|Action|String|是|DescribeFabricOrganizationChannels|系统规定参数。取值：**DescribeFabricOrganizationChannels**。
 
  |
-|Action|String|否|DescribeFabricOrganizationChannels|系统规定参数。取值：**DescribeFabricOrganizationChannels**。
+|OrganizationId|String|是|peers-aaaaaa2-1eqnj5o5\*\*\*\*|组织ID
 
  |
 |Location|String|否|cn-hangzhou|位置
