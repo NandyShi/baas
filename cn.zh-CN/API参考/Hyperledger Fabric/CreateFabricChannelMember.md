@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ChannelId|String|是|chan-channelx-1l1hmckuuisxo|通道ID
+|Action|String|是|CreateFabricChannelMember|系统规定参数。取值：**CreateFabricChannelMember**。
 
  |
-|Action|String|否|CreateFabricChannelMember|系统规定参数。取值：**CreateFabricChannelMember**。
+|ChannelId|String|是|chan-channelx-1l1hmckuuisxo|通道ID
 
  |
 |Organization.N.OrganizationId|String|否|peers-aaaaaa1-1oxw31d046jtl|组织ID
