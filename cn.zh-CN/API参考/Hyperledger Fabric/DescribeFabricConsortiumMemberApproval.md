@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ConsortiumId|String|是|consortium-lianmenyumingyi-hc5d1bwlulg7|联盟ID
+|Action|String|是|DescribeFabricConsortiumMemberApproval|系统规定参数。取值：**DescribeFabricConsortiumMemberApproval**。
 
  |
-|Action|String|否|DescribeFabricConsortiumMemberApproval|系统规定参数。取值：**DescribeFabricConsortiumMemberApproval**。
+|ConsortiumId|String|是|consortium-lianmenyumingyi-hc5d1bwlulg7|联盟ID
 
  |
 |Location|String|否|cn-hangzhou|位置
