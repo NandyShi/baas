@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|否|DescribeFabricEcosphereSpecs|系统规定参数。取值：**DescribeFabricEcosphereSpecs**。
+|Action|String|是|DescribeFabricEcosphereSpecs|系统规定参数。取值：**DescribeFabricEcosphereSpecs**。
 
  |
 |RegionId|String|否|cn-hangzhou|地域。
