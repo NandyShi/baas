@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|否|DescribeFabricConsortiums|系统规定参数。取值：**DescribeFabricConsortiums**。
+|Action|String|是|DescribeFabricConsortiums|系统规定参数。取值：**DescribeFabricConsortiums**。
 
  |
 |ConsortiumId|String|否|consortium-lianmenyumingyi-hc5d1bwl\*\*\*\*|联盟ID
