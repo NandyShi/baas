@@ -10,13 +10,13 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|JoinFabricChannel|系统规定参数。取值：**JoinFabricChannel**。
+
+ |
 |ChannelId|String|是|chan-channelx-1l1hmckuu\*\*\*\*|通道ID
 
  |
 |Do|String|是|accept|操作
-
- |
-|Action|String|否|JoinFabricChannel|系统规定参数。取值：**JoinFabricChannel**。
 
  |
 |Location|String|否|cn-hangzhou|位置
