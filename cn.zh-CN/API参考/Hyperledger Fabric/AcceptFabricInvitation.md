@@ -10,10 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Code|String|是|secrettoken|邀请码。
+|Action|String|是|AcceptFabricInvitation|系统规定参数。取值：**AcceptFabricInvitation**。
 
  |
-|Action|String|否|AcceptFabricInvitation|系统规定参数。取值：**AcceptFabricInvitation**。
+|Code|String|是|secrettoken|邀请码。
 
  |
 |IsAccepted|Boolean|否|true|是否接受。
