@@ -10,13 +10,13 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
+|Action|String|是|SynchronizeFabricChaincode|系统规定参数。取值：**SynchronizeFabricChaincode**。
+
+ |
 |ChaincodeId|String|是|code-sacc-1pr09q7jm\*\*\*\*|链码ID
 
  |
 |OrganizationId|String|是|peers-aaaaaa2-1eqnj5o5w\*\*\*\*|组织ID
-
- |
-|Action|String|否|SynchronizeFabricChaincode|系统规定参数。取值：**SynchronizeFabricChaincode**。
 
  |
 |RegionId|String|否|cn-hangzhou|地域
