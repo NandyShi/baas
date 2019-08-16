@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|否|CheckFabricOrganizationDomain|系统规定参数。取值：**CheckFabricOrganizationDomain**。
+|Action|String|是|CheckFabricOrganizationDomain|系统规定参数。取值：**CheckFabricOrganizationDomain**。
 
  |
 |Domain|String|否|bank|域名前缀。
