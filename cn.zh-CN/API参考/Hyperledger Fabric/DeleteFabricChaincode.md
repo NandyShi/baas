@@ -10,7 +10,7 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|否|DeleteFabricChaincode|系统规定参数。取值：**DeleteFabricChaincode**。
+|Action|String|是|DeleteFabricChaincode|系统规定参数。取值：**DeleteFabricChaincode**。
 
  |
 |ChaincodeId|String|否|code-sacc-1pr09q7jm\*\*\*\*|链码ID
