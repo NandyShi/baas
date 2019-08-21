@@ -10,19 +10,19 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Account|String|否|test|账号名
+|Account|String|是|test|账号名
 
  |
-|AccountPubKey|String|否|AEDC32...|账户公钥
+|AccountPubKey|String|是|AEDC32...|账户公钥
 
  |
-|AccountRecoverPubKey|String|否|AEDC32...|账户恢复公钥
+|AccountRecoverPubKey|String|是|AEDC32...|账户恢复公钥
+
+ |
+|AntChainId|String|是|bDXK6boZ|区块链ID
 
  |
 |Action|String|否|CreateAntChainAccount|系统规定参数。取值：CreateAntChainAccount。
-
- |
-|AntChainId|String|否|bDXK6boZ|区块链ID
 
  |
 |RegionId|String|否|cn-hangzhou|地域ID
