@@ -10,16 +10,16 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Account|String|否|accountname|账户名称
+|Account|String|是|accountname|账户名称
+
+ |
+|AntChainId|String|是|1q8B5R9p|区块链ID
+
+ |
+|Password|String|是|password|密码
 
  |
 |Action|String|否|CreateAntChainAccountWithKeyPairAutoCreation|系统规定参数。取值：CreateAntChainAccountWithKeyPairAutoCreation。
-
- |
-|AntChainId|String|否|1q8B5R9p|区块链ID
-
- |
-|Password|String|否|password|密码
 
  |
 |RegionId|String|否|cn-hangzhou|地域ID
