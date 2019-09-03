@@ -10,7 +10,10 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|ContentName|String|是|newFile|新建文件/文件夹内容
+|Action|String|是|CreateAntChainContractContent|系统规定参数。取值：CreateAntChainContractContent。
+
+ |
+|ContentName|String|是|newFile|新建文件/文件夹名称
 
  |
 |IsDirectory|Boolean|是|false|是否是文件夹
@@ -20,9 +23,6 @@
 
  |
 |ProjectId|String|是|bDXK1b8Z|合约工程ID
-
- |
-|Action|String|否|CreateAntChainContractContent|系统规定参数。取值：CreateAntChainContractContent。
 
  |
 |Content|String|否|""|新建文件/文件夹内容
