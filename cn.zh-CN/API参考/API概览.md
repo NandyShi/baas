@@ -2,7 +2,7 @@
 
 区块链服务提供以下相关API接口。
 
-## 蚂蚁区块链 {#section_cn6_dqj_baf .section}
+## 蚂蚁区块链 {#section_lpv_hop_tyr .section}
 
 |API|描述|
 |---|--|
@@ -41,8 +41,9 @@
 |[DescribeAntChainTransactionReceipt](cn.zh-CN/API参考/蚂蚁区块链/DescribeAntChainTransactionReceipt.md)|根据交易哈希查询一条蚂蚁区块链的交易回执信息|
 |[DescribeAntChainNodes](cn.zh-CN/API参考/蚂蚁区块链/DescribeAntChainNodes.md)|查询一条蚂蚁区块链的节点信息列表|
 |[DescribeAntChainTransactionStatistics](cn.zh-CN/API参考/蚂蚁区块链/DescribeAntChainTransactionStatistics.md)|查询一条蚂蚁区块链的交易统计信息|
+|[UpdateAntChainMember](cn.zh-CN/API参考/蚂蚁区块链/UpdateAntChainMember.md)|更新联盟成员属性|
 
-## Hyperledger Fabric {#section_nsv_bwy_x4y .section}
+## Hyperledger Fabric {#section_p6x_urg_xcw .section}
 
 |API|描述|
 |---|--|
